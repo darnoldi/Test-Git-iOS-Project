@@ -21,6 +21,7 @@
 		0F12882119AF8AB900962710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F12880319AF8AB900962710 /* UIKit.framework */; };
 		0F12882919AF8AB900962710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F12882719AF8AB900962710 /* InfoPlist.strings */; };
 		0F12882B19AF8AB900962710 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F12882A19AF8AB900962710 /* Git_TestTests.m */; };
+		0F12883619AF8D8400962710 /* DANewGile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F12883519AF8D8400962710 /* DANewGile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0F12882619AF8AB900962710 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		0F12882819AF8AB900962710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F12882A19AF8AB900962710 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		0F12883419AF8D8400962710 /* DANewGile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DANewGile.h; path = ../DANewGile.h; sourceTree = "<group>"; };
+		0F12883519AF8D8400962710 /* DANewGile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DANewGile.m; path = ../DANewGile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		0F12880519AF8AB900962710 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				0F12883419AF8D8400962710 /* DANewGile.h */,
+				0F12883519AF8D8400962710 /* DANewGile.m */,
 				0F12880E19AF8AB900962710 /* DAAppDelegate.h */,
 				0F12880F19AF8AB900962710 /* DAAppDelegate.m */,
 				0F12881119AF8AB900962710 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				0F12880C19AF8AB900962710 /* main.m in Sources */,
 				0F12881619AF8AB900962710 /* DAViewController.m in Sources */,
+				0F12883619AF8D8400962710 /* DANewGile.m in Sources */,
 				0F12881019AF8AB900962710 /* DAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
